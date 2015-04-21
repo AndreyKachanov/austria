@@ -5,12 +5,22 @@
 	margin: 0 auto;
 }
 
+/*шапка*/
+
 header {
 	height: 64px;
 	border-top: 4px solid #e3e3e3;
 }
 
-header img {
-	margin: 14px 0 0 57px;
+header h1.logo {
+	margin: 0 auto;
 }
 
+h1.logo a {
+	display: block;
+	text-indent: -9999px;
+	background: url(images/logo.png) no-repeat;
+	width: 202px;
+	height: 35px;
+	margin: 14px 0 0 57px;
+}

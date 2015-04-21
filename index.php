@@ -8,7 +8,9 @@
 <body>
 	<div id="wrapper">
 		<header>
-			<a href="#"><img src="images/logo.png" alt="Австрия" title="Австрия"></a>
+			<h1 class="logo">
+				<a href="index.php">MojaAustria</a>								
+			</h1>
 		</header>
 	</div>
 </body>
