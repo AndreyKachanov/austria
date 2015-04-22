@@ -11,6 +11,10 @@
 			<h1 class="logo">
 				<a href="index.php">MojaAustria</a>								
 			</h1>
+			<form class="form-wrapper">
+				<input type="text" id="search" placeholder="Поиск по сайту" required>
+				<input type="submit" value="go" id="submit">
+			</form>
 		</header>
 	</div>
 </body>
