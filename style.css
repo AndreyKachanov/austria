@@ -5,17 +5,16 @@
 	margin: 0 auto;
 }
 
-/*----------------------------------шапка*/
+/*шапка*/
 header {
 	height: 64px;
 	border-top: 4px solid #e3e3e3;
-	position: relative;
 }
 
 /*логотип*/
 h1.logo {
 	margin: 0 auto;
-	position: absolute;
+	float: left;
 }
 
 h1.logo a {
@@ -30,35 +29,32 @@ h1.logo a {
 
 /*форма поиска*/
 .form-wrapper {
-	position: absolute;
+	position: relative;
 	top: 13px;
-	right: 22px;
+	left: 495px;
 	overflow: hidden;
 }
 
 .form-wrapper #search {
 	width: 146px;
-	padding: 4px 13px;
+	padding: 6.5px 13px;
 	float: left;    
 	font: 10pt "Arial Regular", sans-serif;
 	color: #000;
-	border-top: 1px solid #e4e2e0;
-	border-left: 1px solid #e4e2e0;
-	border-bottom: 1px solid #e4e2e0;
-	border-right: 0px solid #e4e2e0;	
+	border: 1px solid #e4e2e0;
+	border-right-width: 0px;	
 	-moz-border-radius: 6px 0 0 6px;
 	-webkit-border-radius: 6px 0 0 6px;
 	border-radius: 6px 0 0 6px;  
 }
 
 .form-wrapper #search:focus {
-	width: 145px;
 	outline: 0;
-	border-right-width: 1px;
 	border: 1px solid #aaa;
-	-moz-box-shadow: 0 0 2px #FD5454 inset;
-	-webkit-box-shadow: 0 0 2px #FD5454 inset;
-	box-shadow: 0 0 2px #FD5454 inset;
+	border-right-width: 0px;	
+	-moz-box-shadow: -1px 0px 0px 0px #aaa inset, 0px 0px 2px #FD5454 inset, -1px 0px 2px #FD5454 inset;
+	-webkit-box-shadow: -1px 0px 0px 0px #aaa inset, 0px 0px 2px #FD5454 inset, -1px 0px 2px #FD5454 inset;
+	box-shadow: -1px 0px 0px 0px #aaa inset, 0px 0px 2px #FD5454 inset, -1px 0px 2px #FD5454 inset;
 
 }
 
@@ -79,4 +75,39 @@ h1.logo a {
 
 .form-wrapper input:invalid { 
 	box-shadow: none; 
+}
+
+/*кнопка поиска*/
+.form-wrapper #submit {
+	position: absolute;
+    height: 100%;
+    width: 47px;
+    border: 1px solid #e4e2e0;
+	border-left-width: 0px;
+	-moz-border-radius: 0px 6px 6px 0px;
+	-webkit-border-radius: 0px 6px 6px 0px;
+	border-radius: 0px 6px 6px 0px;
+	background-color: #f2f1f1;
+	cursor: pointer;
+	background: url(images/lupa.png) no-repeat 50% 50%, -webkit-gradient(linear, left top, left bottom, from(#f5f3f3), to(#ededed));
+	background: url(images/lupa.png) no-repeat 50% 50%, -moz-linear-gradient(top, #f5f3f3, #ededed);
+	background: url(images/lupa.png) no-repeat 50% 50%, -ms-linear-gradient(top, #f5f3f3, #ededed);
+	background: url(images/lupa.png) no-repeat 50% 50%, -o-linear-gradient(top, #f5f3f3, #ededed);
+	background: url(images/lupa.png) no-repeat 50% 50%, linear-gradient(top, #f5f3f3, #ededed);
+    background: url(images/lupa.png) no-repeat 50% 50%, -webkit-linear-gradient(top, #f5f3f3, #ededed);	
+}
+
+.form-wrapper #submit:active { outline: 0; }
+
+.form-wrapper #submit::-moz-focus-inner {border: 0;}
+
+.form-wrapper #submit:hover,.form-wrapper #submit:focus {outline: none;	}
+
+.form-wrapper #submit:focus {
+	outline: 0;
+	border: 1px solid #aaa;
+	border-left-width: 0px;
+	-moz-box-shadow: 1px 0px 0px 0px #aaa inset;
+	-webkit-box-shadow: 1px 0px 0px 0px #aaa inset;
+	box-shadow: 1px 0px 0px 0px #aaa inset;
 }
