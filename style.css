@@ -7,17 +7,17 @@
 
 /*шапка*/
 header {
-	height: 64px;
+	height: 62px;
 	border-top: 4px solid #e3e3e3;
 }
 
 /*логотип*/
-h1.logo {
+h1.logotip {
 	margin: 0 auto;
 	float: left;
 }
 
-h1.logo a {
+h1.logotip a {
 	outline: none;
 	display: block;
 	text-indent: -9999px;
@@ -39,7 +39,7 @@ h1.logo a {
 	width: 146px;
 	padding: 6.5px 13px;
 	float: left;    
-	font: 10pt "Arial Regular", sans-serif;
+	font: 0.875em Arial, Verdana, sans-serif;
 	color: #000;
 	border: 1px solid #e4e2e0;
 	border-right-width: 0px;	
@@ -50,11 +50,11 @@ h1.logo a {
 
 .form-wrapper #search:focus {
 	outline: 0;
-	border: 1px solid #aaa;
+	border: 1px solid #3088a9;
 	border-right-width: 0px;	
-	-moz-box-shadow: -1px 0px 0px 0px #aaa inset, 0px 0px 2px #FD5454 inset, -1px 0px 2px #FD5454 inset;
-	-webkit-box-shadow: -1px 0px 0px 0px #aaa inset, 0px 0px 2px #FD5454 inset, -1px 0px 2px #FD5454 inset;
-	box-shadow: -1px 0px 0px 0px #aaa inset, 0px 0px 2px #FD5454 inset, -1px 0px 2px #FD5454 inset;
+	-moz-box-shadow: -1px 0px 0px 0px #3088a9 inset;
+	-webkit-box-shadow: -1px 0px 0px 0px #3088a9 inset;
+	box-shadow: -1px 0px 0px 0px #3088a9 inset;
 
 }
 
@@ -105,9 +105,61 @@ h1.logo a {
 
 .form-wrapper #submit:focus {
 	outline: 0;
-	border: 1px solid #aaa;
+	/*border: 1px solid #3088a9;
 	border-left-width: 0px;
-	-moz-box-shadow: 1px 0px 0px 0px #aaa inset;
-	-webkit-box-shadow: 1px 0px 0px 0px #aaa inset;
-	box-shadow: 1px 0px 0px 0px #aaa inset;
+	-moz-box-shadow: 1px 0px 0px 0px #3088a9 inset;
+	-webkit-box-shadow: 1px 0px 0px 0px #3088a9 inset;
+	box-shadow: 1px 0px 0px 0px #3088a9 inset;*/
+}
+
+/*блок слайдера */
+#content_slider {
+	
+}
+
+#slider {
+	/*width: 718px;*/
+	/*height: 258px;*/
+	border: 1px solid #e6e4e2;
+	margin-left: 24px;
+	padding: 9px;
+	float: left;
+	overflow: hidden;
+}
+
+#slider img {
+	display: block;
+}
+
+/*блок с телефоном*/
+#info {
+	border: 1px solid red;
+	float: left;
+}
+
+#info .phone {
+	font: 0.9em Arial, Verdana, sans-serif;
+	color: #343434;
+	margin: 3px 0 0 29px;
+
+}
+
+#info .tel {
+	margin: 8px 0 0 29px;
+	font: 1.43em Arial, Verdana, sans-serif;
+	color: #343434;
+}
+
+#info .workhours {
+	margin: 17px 0 0 29px;
+	font: 0.8em Arial, Verdana, sans-serif;
+	color: #7e7e7e;
+}
+
+#info .workhours p {
+	margin: 0px 0px 7px 0px;
+}
+
+#info .workhours span {
+	color: #ef8814;
 }
