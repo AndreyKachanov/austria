@@ -163,3 +163,29 @@ h1.logotip a {
 #info .workhours span {
 	color: #ef8814;
 }
+
+/*Кнопка Связаться с нами*/
+#info button {
+	width: 155px;
+	height: 30px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	display: table;
+	padding: 0;  
+}
+
+#info .contact_us {
+	display: table-cell;
+	vertical-align: middle;
+	font: bold 1em Arial, sans-serif;
+	color: #fff;
+}
+
+#info .circle {
+	display: table-cell;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #fff;
+	align: right;
+}

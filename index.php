@@ -27,8 +27,13 @@
 					<p>Время работы:</p>				
 					<p>пн-пт с 9.00 до 20.00</p>
 					<p><span>сб-вс</span> с 9.00 до 18.00</p>
-				</div>				
-			</div>			
+				</div>
+			<button>
+				<div class="contact_us">Связаться с нами</div>
+				<div class="circle">
+				</div>
+			</button>					
+			</div>						
 		</div>
 	</div>
 </body>
