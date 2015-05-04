@@ -1,3 +1,11 @@
+html {
+	font-size: 125%;
+}
+
+body {
+	font-size: 50%;
+}
+
 #wrapper {
 	border: 1px solid lightgrey;
 	width: 1000px;
@@ -39,7 +47,7 @@ h1.logotip a {
 	width: 146px;
 	padding: 6.5px 13px;
 	float: left;    
-	font: 0.875em Arial, Verdana, sans-serif;
+	font: 1.2em Arial, Verdana, sans-serif;
 	color: #000;
 	border: 1px solid #e4e2e0;
 	border-right-width: 0px;	
@@ -133,12 +141,12 @@ h1.logotip a {
 
 /*блок с телефоном*/
 #info {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	float: left;
 }
 
 #info .phone {
-	font: 0.9em Arial, Verdana, sans-serif;
+	font: 1.4em Arial, Verdana, sans-serif;
 	color: #343434;
 	margin: 3px 0 0 29px;
 
@@ -146,13 +154,13 @@ h1.logotip a {
 
 #info .tel {
 	margin: 8px 0 0 29px;
-	font: 1.43em Arial, Verdana, sans-serif;
+	font: 2.3em Arial, Verdana, sans-serif;
 	color: #343434;
 }
 
 #info .workhours {
 	margin: 17px 0 0 29px;
-	font: 0.8em Arial, Verdana, sans-serif;
+	font: 1.2em Arial, Verdana, sans-serif;
 	color: #7e7e7e;
 }
 
@@ -166,26 +174,48 @@ h1.logotip a {
 
 /*Кнопка Связаться с нами*/
 #info button {
-	width: 155px;
+	width: 157px;
 	height: 30px;
-	-moz-border-radius: 7px;
-	-webkit-border-radius: 7px;
-	border-radius: 7px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
 	display: table;
 	padding: 0;  
+	margin: 56px 0 0 52px;
+	font: bold 1.2em Arial, Verdana, sans-serif;
+	background: #fd7d10; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fd7d10 0%, #f55509 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fd7d10), color-stop(100%,#f55509)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fd7d10 0%,#f55509 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fd7d10 0%,#f55509 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fd7d10 0%,#f55509 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fd7d10 0%,#f55509 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd7d10', endColorstr='#f55509',GradientType=0 ); /* IE6-9 */
+
+	border: none;
 }
 
 #info .contact_us {
 	display: table-cell;
 	vertical-align: middle;
-	font: bold 1em Arial, sans-serif;
 	color: #fff;
+	padding: 0 11px;
 }
 
 #info .circle {
 	display: table-cell;
-	width: 20px;
-	height: 20px;
+	width: 18px;
+	height: 18px;
 	border: 1px solid #fff;
-	align: right;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 11px;
+	background: #f96300; /* Old browsers */
+	background: url(images/arrow.png) 50% 50% no-repeat, -moz-radial-gradient(center, ellipse cover,  #f96300 0%, #fa700e 46%, #ffffff 100%); /* FF3.6+ */
+	background: url(images/arrow.png) 50% 50% no-repeat, -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#f96300), color-stop(46%,#fa700e), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: url(images/arrow.png) 50% 50% no-repeat, -webkit-radial-gradient(center, ellipse cover,  #f96300 0%,#fa700e 46%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: url(images/arrow.png) 50% 50% no-repeat, -o-radial-gradient(center, ellipse cover,  #f96300 0%,#fa700e 46%,#ffffff 100%); /* Opera 12+ */
+	background: url(images/arrow.png) 50% 50% no-repeat, -ms-radial-gradient(center, ellipse cover,  #f96300 0%,#fa700e 46%,#ffffff 100%); /* IE10+ */
+	background: url(images/arrow.png) 50% 50% no-repeat, radial-gradient(ellipse at center,  #f96300 0%,#fa700e 46%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f96300', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
