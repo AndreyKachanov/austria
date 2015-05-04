@@ -33,7 +33,20 @@
 				<div class="circle">
 				</div>
 			</button>					
-			</div>						
+			</div>
+			<div class="clear"></div>						
+		</div>
+		<div id="top_menu">
+			<nav>
+				<a href="#">Главная</a>
+				<a href="#">О компаниии</a>
+				<a href="#">Услуги</a>
+				<a href="#">Цены</a>
+				<a href="#">Вакансии</a>
+				<a href="#">Статьи</a>
+				<a href="#">Контакты</a>
+			</nav>
+			<div class="clear"></div>			
 		</div>
 	</div>
 </body>
