@@ -297,17 +297,37 @@ h1.logotip a {
 .left_menu {
 	width: 232px;
 	border-top: 1px solid #95c443;
+	border-bottom: 1px solid #95c443;
 	margin: 30px 24px 0 24px;
-	padding: 0; 
+	padding: 5px 5px 21px 0; 
 }
 
 .left_menu li {
+	display: table;
 	list-style: none;
+	padding-bottom: 8px;
+	min-height: 32px;
+}
+
+.left_menu li:last-child {
+	padding-bottom: 0px;
 }
 
 .left_menu li a {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.left_menu li a.text {
 	font: bold 1.4em Arial, Verdana, sans-serif;
 	color: #606060;
-	text-decoration: none;	
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;	
 }
+
+.left_menu li a.text:hover {
+	text-decoration: underline;
+}
+
 

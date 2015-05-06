@@ -51,9 +51,30 @@
 		<div id="main_block">
 			<div id="sidebar">
 				<ul class="left_menu">
-					<li class="puti">
-						<a href="#">Пути иммиграции в<br>Австрию</a></li>
-					<li class="puti"><a href="#">Покупка и аренда<br>недвижиаости</a></li>					
+					<li>
+						<a class="icon" href="#"><img src="images/left_menu/1.png" alt=""></a>
+						<a class="text" href="#">Путь иммиграции в Австрию</a>
+					</li>
+					<li>
+						<a class="icon" href="#"><img src="images/left_menu/2.png" alt=""></a>
+						<a class="text" href="#">Покупка и аренда недвижимости</a>
+					</li>
+					<li>
+						<a class="icon" href="#"><img src="images/left_menu/3.png" alt=""></a>
+						<a class="text" href="#">Полезная информация</a>
+					</li>
+					<li>
+						<a class="icon" href="#"><img src="images/left_menu/4.png" alt=""></a>
+						<a class="text" href="#">Об Австрии</a>
+					</li>
+					<li>
+						<a class="icon" href="#"><img src="images/left_menu/5.png" alt=""></a>
+						<a class="text" href="#">Изучаем словенский язык</a>
+					</li>
+					<li>
+						<a class="icon" href="#"><img src="images/left_menu/6.png" alt=""></a>
+						<a class="text" href="#">Как добраться в Австрию, визы</a>
+					</li>														
 				</ul>
 			</div>
 			<div class="clear"></div>	
