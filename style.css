@@ -201,6 +201,18 @@ h1.logotip a {
 	cursor: pointer;
 }
 
+#info button:focus {
+	box-shadow: 0px 0px 0px 1px #3088a9;
+	outline: 0;
+	border: none;	
+}
+
+/*firefox focus dotted*/
+#info button::-moz-focus-inner {
+	border: 0px solid transparent;
+}
+
+
 #info .contact_us {
 	display: table-cell;
 	vertical-align: middle;
@@ -233,17 +245,8 @@ h1.logotip a {
 	max-height: 40px;
 }
 
-#top_menu nav {
-	margin: 1px 0;
-}
-
 #top_menu nav a:first-child {
 	margin-left: 19px;
-}
-
-#top_menu nav a:last-child {
-	float: right;
-	margin-right: 22px;
 }
 
 #top_menu nav a {
@@ -253,12 +256,8 @@ h1.logotip a {
 	display: block;
 	float: left;
 	padding: 9px 37.5px;
-	/*height: 100%;*/
 	border-top: 3px solid transparent;
 	outline: none;
-	/*-moz-box-sizing: border-box;
-    box-sizing: border-box; 
-    -webkit-box-sizing:border-box;*/
 }
 
 #top_menu nav a:first-child {
@@ -266,7 +265,7 @@ h1.logotip a {
 }
 
 #top_menu nav a:last-child {
-	padding: 9px 0px 9px 37.5px;
+	padding: 9px 0px 9px 37px;
 }
 
 
@@ -283,3 +282,32 @@ h1.logotip a {
 	-webkit-box-shadow: 0px 0px 1px #3088a9 inset;
 	box-shadow: 0px 0px 1px #3088a9 inset;
 }
+
+/*основной блок*/
+#main_block {
+	border-top: 1px solid #f1f1f1;
+}
+
+
+#sidebar {
+	float: left;
+	 box-shadow: 0 21px 14px -19px #e2e2e2 inset;
+}
+
+.left_menu {
+	width: 232px;
+	border-top: 1px solid #95c443;
+	margin: 30px 24px 0 24px;
+	padding: 0; 
+}
+
+.left_menu li {
+	list-style: none;
+}
+
+.left_menu li a {
+	font: bold 1.4em Arial, Verdana, sans-serif;
+	color: #606060;
+	text-decoration: none;	
+}
+

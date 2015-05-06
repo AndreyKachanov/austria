@@ -48,6 +48,16 @@
 			</nav>
 			<div class="clear"></div>			
 		</div>
+		<div id="main_block">
+			<div id="sidebar">
+				<ul class="left_menu">
+					<li class="puti">
+						<a href="#">Пути иммиграции в<br>Австрию</a></li>
+					<li class="puti"><a href="#">Покупка и аренда<br>недвижиаости</a></li>					
+				</ul>
+			</div>
+			<div class="clear"></div>	
+		</div>
 	</div>
 </body>
 </html>
