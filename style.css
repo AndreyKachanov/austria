@@ -176,7 +176,7 @@ h1.logotip a {
 }
 
 /*Кнопка Связаться с нами*/
-#info button {
+#info button, .feedback button {
 	width: 157px;
 	height: 30px;
 	-moz-border-radius: 8px;
@@ -197,30 +197,30 @@ h1.logotip a {
 	border: none;
 }
 
-#info button:hover {
+#info button:hover,.feedback button:hover {
 	cursor: pointer;
 }
 
-#info button:focus {
+#info button:focus,.feedback button:focus {
 	box-shadow: 0px 0px 0px 1px #3088a9;
 	outline: 0;
 	border: none;	
 }
 
 /*firefox focus dotted*/
-#info button::-moz-focus-inner {
+#info button::-moz-focus-inner,.feedback button::-moz-focus-inner {
 	border: 0px solid transparent;
 }
 
 
-#info .contact_us {
+#info .contact_us,.feedback .contact_us {
 	display: table-cell;
 	vertical-align: middle;
 	color: #fff;
 	padding: 0 11px;
 }
 
-#info .circle {
+#info .circle,.feedback .circle {
 	display: table-cell;
 	width: 18px;
 	height: 18px;
@@ -293,7 +293,7 @@ h1.logotip a {
 	float: left;
 	 box-shadow: 0 21px 14px -19px #e2e2e2 inset;
 }
-
+/*левое меню*/
 .left_menu {
 	width: 232px;
 	border-top: 1px solid #95c443;
@@ -330,4 +330,35 @@ h1.logotip a {
 	text-decoration: underline;
 }
 
+/*форма обратно связи*/
+.feedback h1 {
+	font: 1.8em Arial, Verdana, sans-serif;
+	color: #000;
+	margin: 8px 0 16px 24px;
+}
 
+.feedback label {
+	display: block;
+	font: 1.2em Arial, Verdana, sans-serif;
+	color: #343434;
+	margin: 5px 0 5px 30px;
+}
+
+.feedback input[type="text"], .feedback input[type="textarea"] {
+	margin: 0 0 0 24px;
+	width: 198px;
+	border: 1px solid #bababa;
+}
+
+.feedback input[type="text"] {
+	height: 18px;
+}
+
+.feedback input[type="textarea"] {
+	height: 78px;
+}
+
+#main_block .feedback button {
+	width: 113px;
+	margin: 10px 0 0 60px;
+}

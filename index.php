@@ -11,7 +11,7 @@
 			<h1 class="logotip">
 				<a class="fn org" href="index.php">Moja Austria</a>								
 			</h1>
-			<form class="form-wrapper">
+			<form class="form-wrapper" action="#" method="POST">
 				<input type="text" id="search" placeholder="Поиск по сайту" required>
 				<input type="submit" value="" id="submit">				
 			</form>
@@ -76,6 +76,22 @@
 						<a class="text" href="#">Как добраться в Австрию, визы</a>
 					</li>														
 				</ul>
+				<div class="feedback">
+					<h1>Обратная связь</h1>
+					<form action="#" method="POST">
+						<label for="check1">ФИО:</label>
+						<input type="text" id="check1">
+						<label for="check2">Email или Телефон:</label>
+						<input type="text" id="check2">
+						<label for="check3">Текст сообщения:</label>
+						<input type="textarea" id="check3">
+						<button type="submit">
+							<div class="contact_us">Отправить</div>
+							<div class="circle"></div>
+						</button>
+					</form>
+				</div>
+
 			</div>
 			<div class="clear"></div>	
 		</div>
