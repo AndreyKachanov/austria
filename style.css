@@ -6,11 +6,21 @@ body {
 	font-size: 50%;
 }
 
+h1 {
+	font: 1.8em Arial, Verdana, sans-serif;
+	color: #000;
+}
+
+h2 {
+	font: bold 1.4em Arial, Verdana, sans-serif;
+	color: #000;
+}
+
 .clear {
 	clear: both;
 }
 
-#wrapper {
+#container {
 	border: 1px solid lightgrey;
 	width: 1000px;
 	height: 1500px;
@@ -123,9 +133,9 @@ h1.logotip a {
 	-webkit-box-shadow: 1px 0px 0px 0px #3088a9 inset;
 	box-shadow: 1px 0px 0px 0px #3088a9 inset;*/
 }
-
+ 
 /*блок слайдера */
-#content_slider {
+#slider_block {
 	
 }
 
@@ -284,22 +294,23 @@ h1.logotip a {
 }
 
 /*основной блок*/
-#main_block {
+#content_site {
 	border-top: 1px solid #f1f1f1;
+	box-shadow: 0 21px 14px -19px #e2e2e2 inset;
 }
 
 
 #sidebar {
+	width: 254px;
 	float: left;
-	 box-shadow: 0 21px 14px -19px #e2e2e2 inset;
 }
+
 /*левое меню*/
 .left_menu {
-	width: 232px;
 	border-top: 1px solid #95c443;
 	border-bottom: 1px solid #95c443;
-	margin: 30px 24px 0 24px;
-	padding: 5px 5px 21px 0; 
+	margin: 30px 0px 21px 24px;
+	padding: 5px 23px 0px 0px; 
 }
 
 .left_menu li {
@@ -310,7 +321,7 @@ h1.logotip a {
 }
 
 .left_menu li:last-child {
-	padding-bottom: 0px;
+	padding-bottom: 21px;
 }
 
 .left_menu li a {
@@ -323,7 +334,7 @@ h1.logotip a {
 	color: #606060;
 	text-decoration: none;
 	padding-left: 10px;
-	padding-right: 10px;	
+	/*padding-right: 10px;	*/
 }
 
 .left_menu li a.text:hover {
@@ -332,8 +343,6 @@ h1.logotip a {
 
 /*форма обратно связи*/
 .feedback h1 {
-	font: 1.8em Arial, Verdana, sans-serif;
-	color: #000;
 	margin: 8px 0 16px 24px;
 }
 
@@ -358,7 +367,93 @@ h1.logotip a {
 	height: 78px;
 }
 
-#main_block .feedback button {
+#content_site .feedback button {
 	width: 113px;
 	margin: 10px 0 0 60px;
 }
+
+/*main*/
+#main {
+	float: right;
+	margin-right: 24px;	
+}
+
+#about_austria {
+	margin: 0;
+	padding: 0;
+	width: 702px;
+}
+
+#about_austria li {
+	min-height: 300px;
+	border: 1px solid red;	
+	
+}
+
+
+/*.article_wrap {
+	padding: 0;
+	width: 342px;
+	
+}
+
+.article {
+		border: 1px solid red;
+}
+
+.article img {
+	display: block;
+	float: left;
+	margin: 4px 0px 9px 0;
+}
+
+.article p, .article ul {
+	clear: both;
+	color: #343434;
+	font: 1.2em Arial, Verdana, sans-serif
+}
+
+.article h1 {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 125px;
+	margin: 27px auto 0 auto;
+}
+
+.article p {
+	margin: 0;
+	clear: both;
+}
+
+.article span {
+	font-weight: bold;
+}
+
+.article h2 {
+	clear: both;
+	margin: 5px 0;
+	padding: 0;
+}
+
+.article ul {
+	padding: 0 0 0 7px;
+	margin: 0;
+}
+
+.article_wrap button {
+
+}
+
+
+
+.article ul li {
+	list-style-image: url(images/article_li.png);
+	margin-bottom: 8px;
+}*/
+
+
+/*.article:nth-child(even) {
+	padding-left: 16px;
+}*/
+

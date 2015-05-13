@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head> 
 	<title>Моя австрия</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">	
 </head>
 <body>
-	<div id="wrapper" class="vcard">
+	<div id="container" class="vcard">
 		<header>
 			<h1 class="logotip">
 				<a class="fn org" href="index.php">Moja Austria</a>								
@@ -16,7 +16,7 @@
 				<input type="submit" value="" id="submit">				
 			</form>
 		</header>
-		<div id="content_slider">
+		<div id="slider_block">
 			<div id="slider">
 				<img src="images/slides/slide.jpg" alt="">
 			</div>
@@ -48,7 +48,7 @@
 			</nav>
 			<div class="clear"></div>			
 		</div>
-		<div id="main_block">
+		<div id="content_site">
 			<div id="sidebar">
 				<ul class="left_menu">
 					<li>
@@ -78,7 +78,7 @@
 				</ul>
 				<div class="feedback">
 					<h1>Обратная связь</h1>
-					<form action="#" method="POST">
+					<form action="#" method="jrPOST">
 						<label for="check1">ФИО:</label>
 						<input type="text" id="check1">
 						<label for="check2">Email или Телефон:</label>
@@ -91,7 +91,43 @@
 						</button>
 					</form>
 				</div>
+			</div>
+			<div id="main">
+				<ul id="about_austria">
+					<li>
 
+						<div class="under_article">
+							<div class="left">
+								<button>
+									<div class="contact_us">Читать далее</div>
+									<div class="circle"></div>
+								</button>
+							</div>
+							<div class="right">
+								<button>
+									<div class="contact_us">Читать далее</div>
+									<div class="circle"></div>
+								</button>
+							</div>
+						</div>
+						<!-- <div class="article">
+							<img src="images/article1.jpg" alt="">
+							<h1>Почему Австрия?</h1>
+							<p>В мире очень мало стран, которые могли бы предложить Вам такое разнообразие ощущений, которое дарит своим гостям Австрия.</p>
+							<h2>Основные преимущества Австрии</h2>
+							<ul>
+								<li><span>Расположение</span></li>
+								<li><span>Безопасность</span></li>
+								<li>По сравнению с Латвией и Чехией <span>легко иммигрировать</span> – за <span>325 евро в месяц</span> страховка на всю семью и право жить тут</li>
+							</ul>
+						</div>	
+						<button>
+							<div class="contact_us">Читать далее</div>
+							<div class="circle"></div>
+						</button> -->
+					</li>
+					<div class="clear"></div>
+				</ul>
 			</div>
 			<div class="clear"></div>	
 		</div>
