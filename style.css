@@ -378,30 +378,35 @@ h1.logotip a {
 	margin-right: 24px;	
 }
 
+/*статьи*/
 #about_austria {
-	margin: 0;
+	margin: 30px 0 0 0;
 	padding: 0;
 	width: 702px;
+	padding: 0 0 15px 0;
+	border-bottom: 1px solid #f5be2e;
 }
 
-#about_austria li {
-	min-height: 300px;
-	border: 1px solid red;	
-	
-}
-
-
-/*.article_wrap {
-	padding: 0;
-	width: 342px;
-	
+#about_austria .about_li {
+	/*min-height: 300px;*/
+	/*border: 1px solid red;	*/
+	list-style: none;
 }
 
 .article {
-		border: 1px solid red;
+	border-top: 1px solid #f55509;
+	/*border: 1px solid black;*/
+	width: 341px;
+	float: left;
+}
+
+.article:nth-child(odd) {
+	margin-right: 16px;
 }
 
 .article img {
+	width: 201px;
+	height: 82px;
 	display: block;
 	float: left;
 	margin: 4px 0px 9px 0;
@@ -414,11 +419,11 @@ h1.logotip a {
 }
 
 .article h1 {
-	float: right;
-	margin: 0;
+	margin: 28px auto 31px auto;
+	width: 140px;
+	float: left;
 	padding: 0;
-	width: 125px;
-	margin: 27px auto 0 auto;
+	text-align: center;
 }
 
 .article p {
@@ -437,23 +442,33 @@ h1.logotip a {
 }
 
 .article ul {
-	padding: 0 0 0 7px;
-	margin: 0;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 11px;
 }
-
-.article_wrap button {
-
-}
-
-
 
 .article ul li {
 	list-style-image: url(images/article_li.png);
 	margin-bottom: 8px;
-}*/
+}
+/*кнопки */
 
+.under_article {
+	/*border: 1px solid black;*/
+}
 
-/*.article:nth-child(even) {
-	padding-left: 16px;
-}*/
+.under_article .left, .under_article .right {
+	width: 341px;
+}
+
+.under_article .left {
+	float: left;
+}
+
+.under_article .right {
+	float: right;
+}
+
+.under_article .left button, .under_article .right button {
+	float: right;
+}
 
