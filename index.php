@@ -84,7 +84,7 @@
 						<label for="check2">Email или Телефон:</label>
 						<input type="text" id="check2">
 						<label for="check3">Текст сообщения:</label>
-						<input type="textarea" id="check3">
+						<textarea maxlength="255" id="check3"></textarea>
 						<button type="submit">
 							<div class="contact_us">Отправить</div>
 							<div class="circle"></div>
@@ -118,8 +118,6 @@
 								<li>Все Ваши накладные расходы мы стремимся уменьшить, работая с <span>проверенными бухгалтерами, нотариусом, судебными переводчиками</span></li>
 							</ul>
 						</div>
-
-
 						<div class="under_article clear">
 							<div class="left">
 								<button>
@@ -135,22 +133,8 @@
 							</div>
 							<div class="clear"></div>
 						</div>
-						<!-- <div class="article">
-							<img src="images/article1.jpg" alt="">
-							<h1>Почему Австрия?</h1>
-							<p>В мире очень мало стран, которые могли бы предложить Вам такое разнообразие ощущений, которое дарит своим гостям Австрия.</p>
-							<h2>Основные преимущества Австрии</h2>
-							<ul>
-								<li><span>Расположение</span></li>
-								<li><span>Безопасность</span></li>
-								<li>По сравнению с Латвией и Чехией <span>легко иммигрировать</span> – за <span>325 евро в месяц</span> страховка на всю семью и право жить тут</li>
-							</ul>
-						</div>	
-						<button>
-							<div class="contact_us">Читать далее</div>
-							<div class="circle"></div>
-						</button> -->
 					</li>
+
 					<div class="clear"></div>
 				</ul>
 			</div>

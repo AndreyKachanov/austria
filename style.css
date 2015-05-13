@@ -1,3 +1,9 @@
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
 html {
 	font-size: 125%;
 }
@@ -207,11 +213,11 @@ h1.logotip a {
 	border: none;
 }
 
-#info button:hover,.feedback button:hover {
+#info button:hover, .feedback button:hover, .under_article button:hover {
 	cursor: pointer;
 }
 
-#info button:focus,.feedback button:focus {
+#info button:focus, .feedback button:focus, .under_article button:focus {
 	box-shadow: 0px 0px 0px 1px #3088a9;
 	outline: 0;
 	border: none;	
@@ -353,7 +359,7 @@ h1.logotip a {
 	margin: 5px 0 5px 30px;
 }
 
-.feedback input[type="text"], .feedback input[type="textarea"] {
+.feedback input[type="text"], .feedback textarea {
 	margin: 0 0 0 24px;
 	width: 198px;
 	border: 1px solid #bababa;
@@ -363,8 +369,16 @@ h1.logotip a {
 	height: 18px;
 }
 
-.feedback input[type="textarea"] {
+.feedback textarea {
 	height: 78px;
+}
+
+.feedback input[type="text"]:focus, .feedback textarea:focus {
+	outline: 0;
+	border: 1px solid #3088a9;
+	/*-moz-box-shadow: -1px 0px 0px 0px #3088a9 inset;
+	-webkit-box-shadow: -1px 0px 0px 0px #3088a9 inset;
+	box-shadow: -1px 0px 0px 0px #3088a9 inset;*/
 }
 
 #content_site .feedback button {
@@ -391,6 +405,7 @@ h1.logotip a {
 	/*min-height: 300px;*/
 	/*border: 1px solid red;	*/
 	list-style: none;
+	margin: 30px 0 0 0;
 }
 
 .article {
@@ -448,7 +463,7 @@ h1.logotip a {
 
 .article ul li {
 	list-style-image: url(images/article_li.png);
-	margin-bottom: 8px;
+	margin-bottom: 9px;
 }
 /*кнопки */
 
@@ -472,3 +487,20 @@ h1.logotip a {
 	float: right;
 }
 
+.under_article button {
+	padding: 8px 19px 8px 8px;
+	font: 1.2em Arial, Verdana, sans-serif;
+	color: #fff;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: none;
+	background: #8bbf2f; /* Old browsers */
+	background: url(images/arrow.png) 93% 50% no-repeat, -moz-linear-gradient(top,  #8bbf2f 0%, #558600 100%); /* FF3.6+ */
+	background: url(images/arrow.png) 93% 50% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8bbf2f), color-stop(100%,#558600)); /* Chrome,Safari4+ */
+	background: url(images/arrow.png) 93% 50% no-repeat, -webkit-linear-gradient(top,  #8bbf2f 0%,#558600 100%); /* Chrome10+,Safari5.1+ */
+	background: url(images/arrow.png) 93% 50% no-repeat, -o-linear-gradient(top,  #8bbf2f 0%,#558600 100%); /* Opera 11.10+ */
+	background: url(images/arrow.png) 93% 50% no-repeat, -ms-linear-gradient(top,  #8bbf2f 0%,#558600 100%); /* IE10+ */
+	background: url(images/arrow.png) 93% 50% no-repeat, linear-gradient(to bottom,  #8bbf2f 0%,#558600 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8bbf2f', endColorstr='#558600',GradientType=0 ); /* IE6-9 */
+}
