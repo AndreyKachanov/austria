@@ -30,8 +30,7 @@
 				</div>
 			<button>
 				<div class="contact_us">Связаться с нами</div>
-				<div class="circle">
-				</div>
+				<div class="circle"></div>
 			</button>					
 			</div>
 			<div class="clear"></div>						
@@ -134,9 +133,22 @@
 							<div class="clear"></div>
 						</div>
 					</li>
-
-					<div class="clear"></div>
 				</ul>
+				<div id="news">
+					<h1>Новости</h1>
+					<div class="news_wrap"></div>
+					<div class="news_wrap"></div>
+					<div class="news_wrap"></div>
+					<div class="news_wrap"></div>					
+					<div class="news_wrap"></div>					
+					<div class="news_wrap"></div>
+					<a class="subscribe" href="#">
+						<span>Подписаться на расылку новостей и анонсов</span>
+						<div class="circle"></div>
+						<div class="clear"></div>
+					</a>															
+					<div class="clear"></div>	
+				</div>
 			</div>
 			<div class="clear"></div>	
 		</div>

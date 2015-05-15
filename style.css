@@ -1,7 +1,7 @@
 * {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
@@ -133,11 +133,6 @@ h1.logotip a {
 
 .form-wrapper #submit:focus {
 	outline: 0;
-	/*border: 1px solid #3088a9;
-	border-left-width: 0px;
-	-moz-box-shadow: 1px 0px 0px 0px #3088a9 inset;
-	-webkit-box-shadow: 1px 0px 0px 0px #3088a9 inset;
-	box-shadow: 1px 0px 0px 0px #3088a9 inset;*/
 }
  
 /*блок слайдера */
@@ -224,7 +219,9 @@ h1.logotip a {
 }
 
 /*firefox focus dotted*/
-#info button::-moz-focus-inner,.feedback button::-moz-focus-inner {
+#info button::-moz-focus-inner, 
+.feedback button::-moz-focus-inner, 
+.under_article button::-moz-focus-inner {
 	border: 0px solid transparent;
 }
 
@@ -243,7 +240,7 @@ h1.logotip a {
 	border: 1px solid #fff;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-	border-radius: 11px;
+	border-radius: 10px;
 	background: #f96300; /* Old browsers */
 	background: url(images/arrow.png) 50% 50% no-repeat, -moz-radial-gradient(center, ellipse cover,  #f96300 0%, #fa700e 46%, #ffffff 100%); /* FF3.6+ */
 	background: url(images/arrow.png) 50% 50% no-repeat, -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#f96300), color-stop(46%,#fa700e), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
@@ -371,14 +368,14 @@ h1.logotip a {
 
 .feedback textarea {
 	height: 78px;
+	resize: none;
+	font: 1.2em Arial, Verdana, sans-serif;
+	color: #000;
 }
 
 .feedback input[type="text"]:focus, .feedback textarea:focus {
 	outline: 0;
 	border: 1px solid #3088a9;
-	/*-moz-box-shadow: -1px 0px 0px 0px #3088a9 inset;
-	-webkit-box-shadow: -1px 0px 0px 0px #3088a9 inset;
-	box-shadow: -1px 0px 0px 0px #3088a9 inset;*/
 }
 
 #content_site .feedback button {
@@ -503,4 +500,63 @@ h1.logotip a {
 	background: url(images/arrow.png) 93% 50% no-repeat, -ms-linear-gradient(top,  #8bbf2f 0%,#558600 100%); /* IE10+ */
 	background: url(images/arrow.png) 93% 50% no-repeat, linear-gradient(to bottom,  #8bbf2f 0%,#558600 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8bbf2f', endColorstr='#558600',GradientType=0 ); /* IE6-9 */
+}
+
+/*Новости*/
+#news {
+	width: 702px;
+	padding-left: 8px;	
+}
+
+#news h1 {
+	margin-bottom: 17px;
+}
+
+#news .news_wrap {
+	width: 210px;
+	height: 150px;
+	border: 1px solid red;
+	margin-bottom: 21px;
+	float: left;
+}
+
+#news .news_wrap:nth-child(3n+3) {
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+#news a.subscribe {
+	display: block;
+	float: right;
+	color: #f55509;
+	font: 1.2em Arial, Verdana, sans-serif;
+	text-decoration: none;
+}
+
+#news a.subscribe span {
+	display: block;
+	margin: 2px 7px 2px 0;
+	float: left;
+}
+
+#news a.subscribe span:hover {
+	text-decoration: underline;
+}
+
+#news .circle {
+	float: right;
+	width: 18px;
+	height: 18px;
+	border: 1px solid #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: #f96300; /* Old browsers */
+	background: url(images/arrow.png) 50% 50% no-repeat, -moz-radial-gradient(center, ellipse cover,  #f96300 0%, #fa700e 46%, #ffffff 100%); /* FF3.6+ */
+	background: url(images/arrow.png) 50% 50% no-repeat, -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#f96300), color-stop(46%,#fa700e), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: url(images/arrow.png) 50% 50% no-repeat, -webkit-radial-gradient(center, ellipse cover,  #f96300 0%,#fa700e 46%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: url(images/arrow.png) 50% 50% no-repeat, -o-radial-gradient(center, ellipse cover,  #f96300 0%,#fa700e 46%,#ffffff 100%); /* Opera 12+ */
+	background: url(images/arrow.png) 50% 50% no-repeat, -ms-radial-gradient(center, ellipse cover,  #f96300 0%,#fa700e 46%,#ffffff 100%); /* IE10+ */
+	background: url(images/arrow.png) 50% 50% no-repeat, radial-gradient(ellipse at center,  #f96300 0%,#fa700e 46%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f96300', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
