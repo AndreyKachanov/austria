@@ -136,13 +136,14 @@
 				</ul>
 				<div id="news">
 					<h1>Новости</h1>
-					<div class="news_wrap"></div>
-					<div class="news_wrap"></div>
-					<div class="news_wrap"></div>
-					<div class="news_wrap"></div>					
-					<div class="news_wrap"></div>					
-					<div class="news_wrap"></div>
-					<a class="subscribe" href="#">
+					<div class="news_wrap">
+						<div class="date">12.08.2012</div>
+						<img src="/images/news1.jpg" alt="">
+						<h2>Покорение Альп - слет любителей скалолазания</h2>
+						<p>Прошел ежегодный слет любителей скалолазания</p>
+						<a href="">Подробнее</a>
+					</div>
+					<a class="clear subscribe" href="#">
 						<span>Подписаться на расылку новостей и анонсов</span>
 						<div class="circle"></div>
 						<div class="clear"></div>

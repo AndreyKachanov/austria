@@ -560,3 +560,12 @@ h1.logotip a {
 	background: url(images/arrow.png) 50% 50% no-repeat, radial-gradient(ellipse at center,  #f96300 0%,#fa700e 46%,#ffffff 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f96300', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+
+.news_wrap .date {
+	font: 1.2em Arial, Verdana, sans-serif;
+	color: #000;
+	background-color: #f5cc60;
+	padding: 1px;
+	text-align: center;
+	float: left;
+}
