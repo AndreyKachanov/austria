@@ -143,6 +143,34 @@
 						<p>Прошел ежегодный слет любителей скалолазания</p>
 						<a href="">Подробнее</a>
 					</div>
+					<div class="news_wrap">
+						<div class="date">12.08.2012</div>
+						<img src="/images/news2.jpg" alt="">
+						<h2>Покорение Альп</h2>
+						<p>В середине июля 2012 года прошел ежегодный слет любителей туризма и скалолазания</p>
+						<a href="">Подробнее</a>
+					</div>
+					<div class="news_wrap">
+						<div class="date">12.08.2012</div>
+						<img src="/images/news3.jpg" alt="">
+						<h2>Покорение Альп</h2>
+						<p>Прошел ежегодный слет любителей скалолазания</p>
+						<a href="">Подробнее</a>
+					</div>
+					<div class="news_wrap">
+						<div class="date">12.08.2012</div>
+						<img src="/images/news4.jpg" alt="">
+						<h2>Покорение Альп</h2>
+						<p>Прошел ежегодный слет любителей скалолазания</p>
+						<a href="">Подробнее</a>
+					</div>
+					<div class="news_wrap">
+						<div class="date">12.08.2012</div>
+						<img src="/images/news5.jpg" alt="">
+						<h2>Покорение Альп</h2>
+						<p>Прошел ежегодный слет любителей скалолазания</p>
+						<a href="">Подробнее</a>
+					</div>
 					<a class="clear subscribe" href="#">
 						<span>Подписаться на расылку новостей и анонсов</span>
 						<div class="circle"></div>
@@ -151,7 +179,10 @@
 					<div class="clear"></div>	
 				</div>
 			</div>
-			<div class="clear"></div>	
+			<div class="clear"></div>
+			<footer>
+				
+			</footer>	
 		</div>
 	</div>
 </body>

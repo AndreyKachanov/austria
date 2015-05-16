@@ -513,11 +513,14 @@ h1.logotip a {
 }
 
 #news .news_wrap {
-	width: 210px;
+	max-width: 210px;
 	height: 150px;
-	border: 1px solid red;
+	margin: 5px 0 8px 0;
+	/*border: 1px solid red;*/
 	margin-bottom: 21px;
 	float: left;
+	position: relative;
+
 }
 
 #news .news_wrap:nth-child(3n+3) {
@@ -565,7 +568,37 @@ h1.logotip a {
 	font: 1.2em Arial, Verdana, sans-serif;
 	color: #000;
 	background-color: #f5cc60;
-	padding: 1px;
+	padding: 3px 6px;
 	text-align: center;
-	float: left;
+	position: absolute;
+	top: -6px;
+}
+
+#news .news_wrap h2 {
+	margin: 5px 0 8px 0;
+}
+
+#news .news_wrap img {
+	display: block;
+}
+
+#news .news_wrap p {
+	margin-bottom: 9px;
+	font: 1.2em Arial, Verdana, sans-serif;
+	color: #343434;
+	padding: 0;
+}
+
+#news .news_wrap a {
+	font: 1.2em Arial, Verdana, sans-serif;
+	color: #588903;
+	text-decoration:underline;
+	display: block;
+	float: right;
+}
+
+/*подвал*/
+footer {
+	margin-top: 35px;
+	border-top: 10px solid #e3e3e3;
 }
