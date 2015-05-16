@@ -29,7 +29,6 @@ h2 {
 #container {
 	border: 1px solid lightgrey;
 	width: 1000px;
-	height: 1500px;
 	margin: 0 auto;
 }
 
@@ -601,4 +600,51 @@ h1.logotip a {
 footer {
 	margin-top: 35px;
 	border-top: 10px solid #e3e3e3;
+	min-height: 106px;
+}
+
+footer .copyright {
+	width: 254px;
+	float: left;
+}
+
+footer #bottom_menu {
+	margin: 0 auto;
+	width: 480px;
+	border: 1px solid red;
+}
+
+footer #bottom_menu a {
+	font: 1.6em Arial, Verdana, sans-serif;
+	color: #606060; 
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 9px 16px;
+	outline: none;
+}
+
+footer #bottom_menu a:first-child {
+	padding-left: 0px;
+}
+
+footer .contacts {
+	float: right;
+}
+
+footer .contacts .tel {
+	margin: 17px 35px 22px 0;
+	font: 2.3em Arial, Verdana, sans-serif;
+	color: #343434;	
+}
+
+footer .copyright a, footer .mail {
+	font: 1.2em Tahoma, Arial, sans-serif;
+	color: #242424;
+}
+
+footer .copyright a {
+	display: block;
+	text-decoration: none;
+	margin: 23px 0 0 59px;
 }
