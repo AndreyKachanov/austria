@@ -513,7 +513,7 @@ h1.logotip a {
 
 #news .news_wrap {
 	max-width: 210px;
-	height: 150px;
+	height: 153px;
 	margin: 5px 0 8px 0;
 	/*border: 1px solid red;*/
 	margin-bottom: 21px;
@@ -531,7 +531,7 @@ h1.logotip a {
 	display: block;
 	float: right;
 	color: #f55509;
-	font: 1.2em Arial, Verdana, sans-serif;
+	font: bold 1.2em Arial, Verdana, sans-serif;
 	text-decoration: none;
 }
 
@@ -591,27 +591,38 @@ h1.logotip a {
 #news .news_wrap a {
 	font: 1.2em Arial, Verdana, sans-serif;
 	color: #588903;
-	text-decoration:underline;
+	text-decoration: underline;
 	display: block;
-	float: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
+
 
 /*подвал*/
 footer {
 	margin-top: 35px;
 	border-top: 10px solid #e3e3e3;
 	min-height: 106px;
+	position: relative;
 }
 
 footer .copyright {
-	width: 254px;
-	float: left;
+	/*width: 254px;*/
+	position: absolute;
+	top: 23px;
+	left: 59px;
+
+}
+
+footer .copyright a {
+	text-decoration: none;	
 }
 
 footer #bottom_menu {
-	margin: 0 auto;
-	width: 480px;
-	border: 1px solid red;
+	position: absolute;
+	top: 22px;
+	left: 267px;
 }
 
 footer #bottom_menu a {
@@ -620,22 +631,28 @@ footer #bottom_menu a {
 	text-decoration: none;
 	display: block;
 	float: left;
-	padding: 9px 16px;
-	outline: none;
+	margin-left: 32px; 
+}
+
+footer #bottom_menu a:hover {
+	color: #f55509;
 }
 
 footer #bottom_menu a:first-child {
-	padding-left: 0px;
+	margin-left: 0px;
 }
 
 footer .contacts {
-	float: right;
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	background: url(images/bottom_tel.jpg) no-repeat 89% 100%;
 }
 
 footer .contacts .tel {
-	margin: 17px 35px 22px 0;
 	font: 2.3em Arial, Verdana, sans-serif;
 	color: #343434;	
+	margin: 0;
 }
 
 footer .copyright a, footer .mail {
@@ -643,8 +660,10 @@ footer .copyright a, footer .mail {
 	color: #242424;
 }
 
-footer .copyright a {
+footer .mail {
 	display: block;
-	text-decoration: none;
-	margin: 23px 0 0 59px;
+	margin-top: 21px;
+	margin-bottom: 6px;
+	float: left;
 }
+

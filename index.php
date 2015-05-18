@@ -182,10 +182,6 @@
 			<div class="clear"></div>
 			<footer>
 				<div class="copyright"><a href="http://www.site.ru">&#169; 2012 site.ru</a></div>
-				<div class="contacts">
-					<p class="tel">+356 (0)6 601 530</p>
-					<a class="mail" href="mailto:info@site.ru">info@site.ru</a>
-				</div>
 				<div id="bottom_menu">
 					<a href="#">Главная</a>
 					<a href="#">О компаниии</a>
@@ -194,7 +190,10 @@
 					<a href="#">Контакты</a>
 					<div class="clear"></div>
 				</div>
-					
+				<div class="contacts">
+					<p class="tel">+386 (0)1 6001 530</p>
+					<a class="mail" href="mailto:info@site.ru">info@site.ru</a>
+				</div>					
 			</footer>	
 		</div>
 	</div>
