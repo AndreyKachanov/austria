@@ -63,7 +63,7 @@ h1.logotip a {
 }
 
 .form-wrapper #search {
-	width: 146px;
+	width: 172px;
 	padding: 6.5px 13px;
 	float: left;    
 	font: 1.2em Arial, Verdana, sans-serif;
@@ -134,45 +134,45 @@ h1.logotip a {
 	outline: 0;
 }
  
-/*блок слайдера */
 #slider_block {
+	position: relative;
+	/*border: 1px solid red;*/
+	min-height: 258px;
+}
+
+/*слайдер*/
+#sld {
+	position: absolute;
+	left: 24px;
+	width: 718px;
+	height: 258px;
+	border: 1px solid #e6e4e2;
+	padding: 9px;
 	
 }
 
-#slider {
-	/*width: 718px;*/
-	/*height: 258px;*/
-	border: 1px solid #e6e4e2;
-	margin-left: 24px;
-	padding: 9px;
-	float: left;
-	overflow: hidden;
-}
-
-#slider img {
-	display: block;
-}
 
 /*блок с телефоном*/
 #info {
-	float: left;
+	position: absolute;
+	left: 771px;
 }
 
 #info .phone {
 	font: 1.4em Arial, Verdana, sans-serif;
 	color: #343434;
-	margin: 3px 0 0 29px;
+	margin: 3px 0 0 0px;
 
 }
 
 #info .tel {
-	margin: 8px 0 0 29px;
+	margin: 8px 0 0 0px;
 	font: 2.3em Arial, Verdana, sans-serif;
 	color: #343434;
 }
 
 #info .workhours {
-	margin: 17px 0 0 29px;
+	margin: 17px 0 0 0px;
 	font: 1.2em Arial, Verdana, sans-serif;
 	color: #7e7e7e;
 }
@@ -194,7 +194,7 @@ h1.logotip a {
 	border-radius: 8px;
 	display: table;
 	padding: 0;  
-	margin: 56px 0 0 52px;
+	margin: 56px 0 0 23px;
 	font: bold 1.2em Arial, Verdana, sans-serif;
 	background: #fd7d10; /* Old browsers */
 	background: -moz-linear-gradient(top,  #fd7d10 0%, #f55509 100%); /* FF3.6+ */
@@ -574,7 +574,7 @@ h1.logotip a {
 }
 
 #news .news_wrap h2 {
-	margin: 5px 0 8px 0;
+	margin: 5px 0 6px 0;
 }
 
 #news .news_wrap img {
@@ -582,10 +582,13 @@ h1.logotip a {
 }
 
 #news .news_wrap p {
-	margin-bottom: 9px;
+	margin-bottom: 0px;
+	margin-top: 0px;
 	font: 1.2em Arial, Verdana, sans-serif;
 	color: #343434;
 	padding: 0;
+	max-height: 41px;
+	overflow: hidden;
 }
 
 #news .news_wrap a {
@@ -666,4 +669,3 @@ footer .mail {
 	margin-bottom: 6px;
 	float: left;
 }
-

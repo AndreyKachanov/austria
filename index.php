@@ -4,6 +4,7 @@
 	<title>Моя австрия</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">	
+	<script src="js/jquery-1.11.3.min.js"></script>
 </head>
 <body>
 	<div id="container" class="vcard">
@@ -17,9 +18,7 @@
 			</form>
 		</header>
 		<div id="slider_block">
-			<div id="slider">
-				<img src="images/slides/slide.jpg" alt="">
-			</div>
+			<div id="sld"></div>
 			<div id="info">
 				<p class="phone">Телефон</p>
 				<p class="tel">+356 (0)6 601 530</p>
@@ -52,7 +51,7 @@
 				<ul class="left_menu">
 					<li>
 						<a class="icon" href="#"><img src="images/left_menu/1.png" alt=""></a>
-						<a class="text" href="#">Путь иммиграции в Австрию</a>
+						<a class="text" href="#">Путь иммиграции в Австрию </a>
 					</li>
 					<li>
 						<a class="icon" href="#"><img src="images/left_menu/2.png" alt=""></a>
