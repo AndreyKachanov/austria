@@ -1,0 +1,167 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 125%;
+}
+
+body {
+	font-size: 50%;
+}
+
+a, a:visited {
+	color:#2d3536;
+	text-decoration:none;
+	border-bottom:1px dotted #826a4d;
+}
+a:hover, a:active {
+	color:#9e805c;
+	text-decoration:none;
+}
+
+
+/*===========================================*/
+/*=== Пользовательские стили для слайдера ===*/
+/*===========================================*/
+#slider-wrapper {
+    /*background:url(images/slider.png) no-repeat;*/
+    /*width:494px;*/
+    /*height:310px;*/
+    /*margin:0 auto;*/
+    /*padding-top:23px;*/
+    /*margin-top:50px;*/
+    float: left;
+}
+
+#slider {
+	position:relative;
+	left: -22px;
+	top: 9px;
+    width:430px;
+    height:250px;
+    margin-left:32px;
+	background:url(images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	right: 0px;
+	/*left:163px;*/
+	bottom:12px;
+	/*background: #ccc;*/
+/*	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;*/
+    /*padding: 3px;*/
+    /*border: 2px solid #CCC;*/
+    /*opacity: 0.6;*/
+    z-index: 999999999999;
+    /*width: 100%;*/
+    height: 53px;
+    border-top: 1px solid #fff;
+	}
+	
+	/*.nivo-controlNav:hover{opacity: 1;}*/
+
+.nivo-controlNav span {
+	font: bold 1.4em Arial, Verdana, sans-serif;
+	text-shadow: 0.5px 0.5px 0.5px #fff;
+  	color: #4f4f4f;
+  	display: block;
+	float: left;
+	width: 81%;
+	/*border: 1px solid red;*/
+	padding: 10px 0 0 9px;	
+	/*border-right: 1px solid #818181;*/
+	height: 100%;
+}
+
+/*.border {
+	border-right: 1px solid #fff;
+	height: 52px;
+	float: left;
+}*/
+
+.opacity {
+	border-top: 1px solid #fff;
+
+	background: #ccc;
+	opacity: 0.6;
+	height:53px; 
+	/*border:1px solid red;*/
+	/*width: 70%;*/
+  	/*float: left;*/
+  	position: absolute;
+  	bottom: 10px;
+  	left: 10px;
+  	width: 698px;
+  	z-index: 9999;
+}
+.nivo-controlNav a {
+	display:block;
+	width:16px;
+	height:16px;
+	background-color: #fff;
+	/*background:url(images/bullets.png) no-repeat;*/
+	text-indent:-9999px;
+	border:0;
+	margin-top: 14px;
+	margin-right:17px;
+	float:right;
+	box-shadow: 1px 1px 1px #000;
+	border-radius: 34px;
+}
+.nivo-controlNav a.active {
+	background-color: #fd7d10;
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:27px;
+	height:65px;
+	background:url(images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-25px 0;
+	right: -25px;
+}
+
+/*a.nivo-nextNav:hover{right: -41px;}*/
+
+a.nivo-prevNav {
+	left:-25px;
+}
+/*a.nivo-prevNav:hover{left: -41px;}*/
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+.nivo-directionNav a{top: 40%;}
+
+/*====================*/
+/*=== Другие стили ===*/
+/*====================*/
+.clear {
+	clear:both;
+}

@@ -3,8 +3,9 @@
 <head> 
 	<title>Моя австрия</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css">	
-	<script src="js/jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="style_slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
 </head>
 <body>
 	<div id="container" class="vcard">
@@ -18,7 +19,17 @@
 			</form>
 		</header>
 		<div id="slider_block">
-			<div id="sld"></div>
+			<div id="sld">
+				<!-- <div id="slider-wrapper">  -->
+		            <div  class="opacity"></div>     
+		            <div id="slider" class="nivoSlider">
+		                <img src="images/slides/slide.jpg" alt="" />
+		                <img src="images/slides/slide2.jpg" alt="" />
+		                <img src="images/slides/slide2.jpg" alt="" /> 
+		                               
+		            </div>
+        		<!-- </div>	 -->
+			</div>
 			<div id="info">
 				<p class="phone">Телефон</p>
 				<p class="tel">+356 (0)6 601 530</p>
@@ -196,5 +207,12 @@
 			</footer>	
 		</div>
 	</div>
+	<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+	<script type="text/javascript">
+    	$(window).load(function() {
+        $('#slider').nivoSlider({directionNavHide:false});
+    });
+    </script>
 </body>
 </html>
