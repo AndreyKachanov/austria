@@ -20,15 +20,15 @@
 		</header>
 		<div id="slider_block">
 			<div id="sld">
-				<!-- <div id="slider-wrapper">  -->
-		            <div  class="opacity"></div>     
+		            <div  class="opacity_border_top">
+		            	<div class="opacity"></div>
+		            	<span class="slide_desctiption">Сайт для тех, кто планирует жить в Австрии, или хочет поближе познакомиться с этой страной</span>		            	
+		            </div>
 		            <div id="slider" class="nivoSlider">
 		                <img src="images/slides/slide.jpg" alt="" />
 		                <img src="images/slides/slide2.jpg" alt="" />
-		                <img src="images/slides/slide2.jpg" alt="" /> 
-		                               
+		                <img src="images/slides/slide3.jpg" alt="" />            
 		            </div>
-        		<!-- </div>	 -->
 			</div>
 			<div id="info">
 				<p class="phone">Телефон</p>

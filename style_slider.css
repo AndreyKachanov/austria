@@ -12,15 +12,7 @@ body {
 	font-size: 50%;
 }
 
-a, a:visited {
-	color:#2d3536;
-	text-decoration:none;
-	border-bottom:1px dotted #826a4d;
-}
-a:hover, a:active {
-	color:#9e805c;
-	text-decoration:none;
-}
+
 
 
 /*===========================================*/
@@ -70,22 +62,34 @@ a:hover, a:active {
     z-index: 999999999999;
     /*width: 100%;*/
     height: 53px;
-    border-top: 1px solid #fff;
+    /*border-top: 1px solid #fff;*/
+    border-left: 1px solid #818181;
+    padding-left: 19px;
+    -moz-box-shadow: 1px 0px 0px 0px #fff inset;
+	-webkit-box-shadow: 1px 0px 0px 0px #fff inset;
+	box-shadow: 1px 0px 0px 0px #fff inset;
 	}
+
+.nivo-controlNav {
+	
+}	
 	
 	/*.nivo-controlNav:hover{opacity: 1;}*/
 
-.nivo-controlNav span {
+.slide_desctiption {
 	font: bold 1.4em Arial, Verdana, sans-serif;
 	text-shadow: 0.5px 0.5px 0.5px #fff;
   	color: #4f4f4f;
   	display: block;
-	float: left;
-	width: 81%;
-	/*border: 1px solid red;*/
-	padding: 10px 0 0 9px;	
-	/*border-right: 1px solid #818181;*/
+  	position: absolute;
+  	top: 11px;
+  	left: 9px;
+	width: 75%;
 	height: 100%;
+	/*border: 1px solid red;*/
+	/*padding: 10px 0 0 9px;	*/
+	/*border-right: 1px solid #818181;*/
+	/*height: 100%;*/
 }
 
 /*.border {
@@ -95,10 +99,23 @@ a:hover, a:active {
 }*/
 
 .opacity {
-	border-top: 1px solid #fff;
 
 	background: #ccc;
 	opacity: 0.6;
+	height:100%; 
+	/*border:1px solid red;*/
+	/*width: 70%;*/
+  	/*float: left;*/
+  	/*position: absolute;*/
+  	/*bottom: 10px;*/
+  	/*left: 10px;*/
+  	width: 100%;
+  	z-index: 9999;
+}
+
+.opacity_border_top {
+	border-top: 1px solid #fff;	
+	/*background: #ccc;*/
 	height:53px; 
 	/*border:1px solid red;*/
 	/*width: 70%;*/
@@ -107,8 +124,9 @@ a:hover, a:active {
   	bottom: 10px;
   	left: 10px;
   	width: 698px;
-  	z-index: 9999;
+  	z-index: 9999;	
 }
+
 .nivo-controlNav a {
 	display:block;
 	width:16px;
@@ -117,12 +135,13 @@ a:hover, a:active {
 	/*background:url(images/bullets.png) no-repeat;*/
 	text-indent:-9999px;
 	border:0;
-	margin-top: 14px;
+	margin-top: 17px;
 	margin-right:17px;
 	float:right;
 	box-shadow: 1px 1px 1px #000;
 	border-radius: 34px;
 }
+
 .nivo-controlNav a.active {
 	background-color: #fd7d10;
 	background-position:0 -22px;
@@ -157,11 +176,3 @@ a.nivo-prevNav {
     text-decoration:underline;
 }
 
-.nivo-directionNav a{top: 40%;}
-
-/*====================*/
-/*=== Другие стили ===*/
-/*====================*/
-.clear {
-	clear:both;
-}
