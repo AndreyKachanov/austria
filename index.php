@@ -61,29 +61,41 @@
 			<div id="sidebar">
 				<ul class="left_menu">
 					<li>
-						<a class="icon" href="#"><img src="images/left_menu/1.png" alt=""></a>
-						<a class="text" href="#">Путь иммиграции в Австрию </a>
+						<a href="">
+							<img src="images/left_menu/1.png" alt="">
+							<span class="text" href="#">Путь иммиграции в Австрию </span>	
+						</a>						
 					</li>
 					<li>
-						<a class="icon" href="#"><img src="images/left_menu/2.png" alt=""></a>
-						<a class="text" href="#">Покупка и аренда недвижимости</a>
+						<a href="">
+							<img src="images/left_menu/2.png" alt="">
+							<span class="text" href="#">Покупка и аренда недвижимости</span>	
+						</a>						
 					</li>
 					<li>
-						<a class="icon" href="#"><img src="images/left_menu/3.png" alt=""></a>
-						<a class="text" href="#">Полезная информация</a>
+						<a href="">
+							<img src="images/left_menu/3.png" alt="">
+							<span class="text" href="#">Полезная информация</span>	
+						</a>						
 					</li>
 					<li>
-						<a class="icon" href="#"><img src="images/left_menu/4.png" alt=""></a>
-						<a class="text" href="#">Об Австрии</a>
+						<a href="">
+							<img src="images/left_menu/4.png" alt="">
+							<span class="text" href="#">Об Австрии</span>	
+						</a>						
 					</li>
 					<li>
-						<a class="icon" href="#"><img src="images/left_menu/5.png" alt=""></a>
-						<a class="text" href="#">Изучаем словенский язык</a>
+						<a href="">
+							<img src="images/left_menu/5.png" alt="">
+							<span class="text" href="#">Изучаем словенский язык</span>	
+						</a>						
 					</li>
 					<li>
-						<a class="icon" href="#"><img src="images/left_menu/6.png" alt=""></a>
-						<a class="text" href="#">Как добраться в Австрию, визы</a>
-					</li>														
+						<a href="">
+							<img src="images/left_menu/6.png" alt="">
+							<span class="text" href="#">Как добраться в Австрию, визы</span>	
+						</a>						
+					</li>													
 				</ul>
 				<div class="feedback">
 					<h1>Обратная связь</h1>

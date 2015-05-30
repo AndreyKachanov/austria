@@ -311,7 +311,7 @@ h1.logotip a {
 .left_menu {
 	border-top: 1px solid #95c443;
 	border-bottom: 1px solid #95c443;
-	margin: 30px 0px 21px 24px;
+	margin: 30px 0px 0px 24px;
 	padding: 5px 23px 0px 0px; 
 }
 
@@ -327,11 +327,24 @@ h1.logotip a {
 }
 
 .left_menu li a {
+	display: table;
+	/*display: table-cell;*/
+	/*vertical-align: middle;*/
+	text-decoration: none;
+}
+
+.left_menu li a:hover {
+	text-decoration: underline;
+}
+
+.left_menu li img {
 	display: table-cell;
 	vertical-align: middle;
 }
 
-.left_menu li a.text {
+.left_menu li .text {
+	display: table-cell;
+	vertical-align: middle;
 	font: bold 1.4em Arial, Verdana, sans-serif;
 	color: #606060;
 	text-decoration: none;
@@ -339,13 +352,13 @@ h1.logotip a {
 	/*padding-right: 10px;	*/
 }
 
-.left_menu li a.text:hover {
+/*.left_menu li .text:hover {
 	text-decoration: underline;
-}
+}*/
 
 /*форма обратно связи*/
 .feedback h1 {
-	margin: 8px 0 16px 24px;
+	margin: 8px 0 13px 24px;
 }
 
 .feedback label {
@@ -508,7 +521,7 @@ h1.logotip a {
 }
 
 #news h1 {
-	margin-bottom: 17px;
+	margin: 10px 0 17px 0;
 }
 
 #news .news_wrap {
