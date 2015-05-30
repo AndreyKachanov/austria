@@ -39,8 +39,8 @@
 					<p><span>сб-вс</span> с 9.00 до 18.00</p>
 				</div>
 			<button>
-				<div class="contact_us">Связаться с нами</div>
-				<div class="circle"></div>
+				<span class="contact_us">Связаться с нами</span>
+				<span class="circle"></span>
 			</button>					
 			</div>
 			<div class="clear"></div>						
@@ -63,43 +63,43 @@
 					<li>
 						<a href="">
 							<img src="images/left_menu/1.png" alt="">
-							<span class="text" href="#">Путь иммиграции в Австрию </span>	
+							<span class="text">Путь иммиграции в Австрию </span>	
 						</a>						
 					</li>
 					<li>
 						<a href="">
 							<img src="images/left_menu/2.png" alt="">
-							<span class="text" href="#">Покупка и аренда недвижимости</span>	
+							<span class="text">Покупка и аренда недвижимости</span>	
 						</a>						
 					</li>
 					<li>
 						<a href="">
 							<img src="images/left_menu/3.png" alt="">
-							<span class="text" href="#">Полезная информация</span>	
+							<span class="text">Полезная информация</span>	
 						</a>						
 					</li>
 					<li>
 						<a href="">
 							<img src="images/left_menu/4.png" alt="">
-							<span class="text" href="#">Об Австрии</span>	
+							<span class="text">Об Австрии</span>	
 						</a>						
 					</li>
 					<li>
 						<a href="">
 							<img src="images/left_menu/5.png" alt="">
-							<span class="text" href="#">Изучаем словенский язык</span>	
+							<span class="text">Изучаем словенский язык</span>	
 						</a>						
 					</li>
 					<li>
 						<a href="">
 							<img src="images/left_menu/6.png" alt="">
-							<span class="text" href="#">Как добраться в Австрию, визы</span>	
+							<span class="text">Как добраться в Австрию, визы</span>	
 						</a>						
 					</li>													
 				</ul>
 				<div class="feedback">
 					<h1>Обратная связь</h1>
-					<form action="#" method="jrPOST">
+					<form action="#" method="POST">
 						<label for="check1">ФИО:</label>
 						<input type="text" id="check1">
 						<label for="check2">Email или Телефон:</label>
@@ -107,8 +107,8 @@
 						<label for="check3">Текст сообщения:</label>
 						<textarea maxlength="255" id="check3"></textarea>
 						<button type="submit">
-							<div class="contact_us">Отправить</div>
-							<div class="circle"></div>
+							<span class="contact_us">Отправить</span>
+							<span class="circle"></span>
 						</button>
 					</form>
 				</div>
@@ -142,14 +142,14 @@
 						<div class="under_article clear">
 							<div class="left">
 								<button>
-									<div class="contact_us">Читать далее</div>
-									<div class="circle"></div>
+									<span class="contact_us">Читать далее</span>
+									<span class="circle"></span>
 								</button>
 							</div>
 							<div class="right">
 								<button>
-									<div class="contact_us">Читать далее</div>
-									<div class="circle"></div>
+									<span class="contact_us">Читать далее</span>
+									<span class="circle"></span>
 								</button>
 							</div>
 							<div class="clear"></div>
