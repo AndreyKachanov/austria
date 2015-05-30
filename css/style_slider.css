@@ -35,7 +35,7 @@ body {
     width:430px;
     height:250px;
     margin-left:32px;
-	background:url(images/loading.gif) no-repeat 50% 50%;
+	background:url(../images/loading.gif) no-repeat 50% 50%;
 }
 #slider img {
 	position:absolute;
@@ -151,7 +151,7 @@ body {
 	display:block;
 	width:27px;
 	height:65px;
-	background:url(images/arrows.png) no-repeat;
+	background:url(../images/arrows.png) no-repeat;
 	text-indent:-9999px;
 	border:0;
 }

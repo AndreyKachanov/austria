@@ -3,9 +3,9 @@
 <head> 
 	<title>Моя австрия</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="style_slider.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/style_slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
 </head>
 <body>
 	<div id="container" class="vcard">
